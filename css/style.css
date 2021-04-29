@@ -10,7 +10,7 @@
     color: #ffffff;
 }
 h1 {
-    padding: 10px 0;
+    padding: 5px 0;
 }
 h3{
     padding: 10px 0px;
@@ -27,18 +27,30 @@ h3{
 .tick {
     padding: 10px;
     border-radius: 0px;
+    height: 63px;
+}
+.img-btn {
+    padding: 10px;
+    border-radius: 0px;
+    height: 58px;
 }
 
 input{
     width: 282px;
-    height: 35px;
+    height: 63px;
     padding-left: 10px;
     border-radius: 0px;
-    border: none;
+    border: 1px solid #ffffff;
 }
 .download-wrapper{
-    background-color: grey;
+    background-color: #f8f7f7;
 }
 .br-teal{
     border-right:1px solid teal;
+}
+.text-white{
+    color: #ffffff;
+}
+.text-teal{
+    color: aquamarine;
 }
