@@ -1,0 +1,23 @@
+.link-decoration{
+    text-decoration: none;
+    color: #ffffff;
+}
+.menu-item{
+    list-style: none;
+}
+.decription-content{
+    text-align: center;
+    color: #ffffff;
+
+}
+h1 {
+    padding: 10px 0;
+}
+.btn {
+    padding: 10px 30px;
+    background-color: teal;
+    border-radius: 5px;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
