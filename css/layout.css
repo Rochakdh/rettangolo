@@ -93,3 +93,19 @@
 .next-menu{
     padding-top: 45px;
 }
+.slider-wrapper{
+    background-color: gray;
+    width: 100%;
+    height :484px;
+}
+.slider{
+    width: 1191px;
+    height: 250px;
+    margin: 0px auto;
+}
+.slider-conetnt{
+    float: left;
+    margin:121px 12px;
+    width: 373px;
+    height: 243px;
+}
