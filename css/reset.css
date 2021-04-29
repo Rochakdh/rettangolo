@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100&family=Varela+Round&display=swap');
 *{
     margin :0 ;
     padding:0;
     box-sizing:border-box;
-    font: Myriad Pro;
+    font-family: 'Varela Round', sans-serif;
 }
 .clearfix::after {
     content:"";
@@ -15,5 +16,3 @@ textarea:focus,
 button:focus {
     outline: none;
 }
-
- 

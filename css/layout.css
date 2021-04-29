@@ -8,24 +8,26 @@
 }
 .menu-wrapper{
     width: 100%;
+    overflow: hidden;
 }
 .menu{
-    width: 760px;
-    margin: 0PX auto;
+    width: 880px;
+    margin: 75px auto;
 }
 .link-image{
     text-decoration: none;
     float: left;
-    padding: 40px 69px;
+    padding: 0px 69px;
+    margin-top: -25px;
 }
 .link-decoration{
     float: left;
-    margin: 75px 33px 0px 50px;
+    margin: 0px 33px 0px 50px;
 }
 .bg-descirption{
     min-height: 135px;
     width: 502px;
-    margin-top: 225px;
+    margin-top: 195px;
     margin-left:391px;
 }
 .social-menu-wrapper{
@@ -145,12 +147,14 @@
     float: left;
     margin: 0px 14px;
 }
+.download-wrapper{
+    overflow: hidden;
+}
 .download{
-    height: 400px;
+    height: 193px;
     width: 60%;
-    margin: 0px auto;
+    margin: 91px auto 122px auto;
     text-align: center;
-    padding-top: 130px;
 }
 .download-btn{
     margin: 35px auto;
@@ -201,4 +205,7 @@
 }
 .pdt-10{
     margin-top: 20px;
+}
+.pd-10{
+    padding:3px
 }
