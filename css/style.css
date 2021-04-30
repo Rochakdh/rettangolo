@@ -1,3 +1,6 @@
+.background-wrapper{
+    background-image: url(../images/bg.png);
+}
 .link-decoration{
     text-decoration: none;
     color: #ffffff;
@@ -37,7 +40,7 @@ h3{
 
 input{
     width: 282px;
-    height: 62px;
+    min-height: 62px;
     padding-left: 10px;
     border-radius: 0px;
     border: 1px solid #ffffff;
@@ -53,4 +56,14 @@ input{
 }
 .text-teal{
     color: aquamarine;
+}
+.slider-wrapper{
+    background-color: #f8f7f7;
+    border: 1px solid #f8f7f7;
+}
+.subscribe-wrapper{
+    background-image: url(../images/camerahold.png);
+}
+.store-content{
+    background-color: teal;
 }

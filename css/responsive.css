@@ -1,8 +1,4 @@
-@media only screen and (min-width:768px){
-.navbar-collapse{
-    display: none;
-}
-.menu-collapse-wrapper{
+.menu{
     display: none;
 }
 .background-wrapper{
@@ -17,22 +13,42 @@
     width: 100%;
     overflow: hidden;
 }
-.menu{
-    display: block;
+.navbar-collapse
+{
+    margin: 75px auto 0px auto;
+    border: 1px solid #ffffff;
     width: 90%;
-    margin: 75px auto;
-    text-align: center;
+    height: 60px ;
+    color: #ffffff;
+    padding: 8px 10px;
 }
-.menu-item{
-    display: inline;
+.collaspse-content{
+    margin: 0px auto;
+    padding: 10px;
+    width: 90%;
+    display: inline-block;
 }
-.link-image{
+.collapse-icon{
+    display: inline-block;
+}
+.menu-collapse-wrapper{
+    min-height: auto;
+    width: 100%;
+}
+.menu-collapse {
+    margin: 0px auto 75px auto;
+    width: 90%;
+    height: 60px;
+}
+.collapse-item{
+    list-style: none;
     text-decoration: none;
-    padding: 0% 3%;
-    margin-top: -25px;
+    padding: 7px;
+    border-bottom: 1px solid #ffffff;
 }
-.link-decoration{
-    margin: 3%;
+.link-collapse{
+    color: #ffffff;
+    text-decoration: none;
 }
 .bg-descirption{
     min-height: 135px;
@@ -62,21 +78,16 @@
 }
 .present-body{
     min-height: 320px;
-    width: 39%;
-    margin: 133px 0px 20px 100px;
-    float: left;
+    width: 80%;
+    margin: 133px auto;
+    text-align: center;
 }
 .present-body-content{
     height: auto;
     padding: 42px 0px 20px 0px;
 }
 .present-image-hand {
-    display: block;
-    position: absolute;
-    padding-top: 100px;
-    height: 100%;
-    overflow: hidden;
-    left: 486px;
+    display: none;
 }
 .design-body-wrapper{
     position: relative;
@@ -85,21 +96,16 @@
 }
 .design-body{
     min-height: 320px;
-    width: 39%;
-    margin-right:146px;
-    margin-top: 133px;
-    float: right;
+    width: 80%;
+    margin: 133px auto;
+    text-align: center;
 }
 .design-body-content{
     height: auto;
     padding: 42px 0px 20px 0px;
 }
 .design-image-hand {
-    display: block;
-    position: absolute;
-    padding-top: 153px;
-    overflow: hidden;
-    right: 66%;
+    display: none;
 }
 .lt,.gt{
     text-decoration: none;
@@ -114,24 +120,27 @@
     min-height: 484px;
 }
 .slider{
-    max-width: 1191px;
+    max-width: 90%;
     margin: 110px auto;
 }
-.next-menu-slider{
+.next-menu-slider {
     position: absolute;
-    right: 95px;
-    top: 95px;
+    right: 45%;
+    bottom: 50px;
+    text-decoration: none;
 }
 .slider-conetnt{
-    float: left;
     margin:12px 12px;
-    max-width: 373px;
-    height: 243px;
+    min-width: 300px;
+    min-height: 243px;
 }
 .slider-conetnt-img{
-    min-width:70% ;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 .slider-text{
+    margin: 0px 65px;
     text-align: center;
     line-height: 30px;
 }
@@ -143,7 +152,7 @@
     background-position: top;
 }
 .subscribe{
-    width: 80%;
+    width: 90%;
     margin: 0px auto;
     text-align: center;
     margin-top:352px;
@@ -153,7 +162,7 @@
 }
 .btn-green{
     display: inline-block;
-    margin: 2px 14px;
+    margin: 2px 10px;
 }
 .download-wrapper{
     overflow: hidden;
@@ -166,7 +175,6 @@
 .download-btn{
     text-align: center;
     margin: 35px auto;
-    width: 95%;
     min-height: 58px;
 }
 .dowload-store{
@@ -175,12 +183,11 @@
 .store-content{
     float: left;
     height: 58px;
-    max-width: 200px;
 }
 .store-content-link{
-    padding:20px 0px;
+    padding:20px 5px;
     height: 58px;
-    width: 200px;
+    max-width: 200px;
     text-decoration: none;
     color: #ffffff;
     display: block;
@@ -191,8 +198,7 @@
 }
 .footer-item{
     list-style: none;
-    float: left;
-
+    display: inline-block;
 }
 .footer-link{
     text-decoration: none;
@@ -200,24 +206,14 @@
     padding:0px 5px;
 }
 .footer-content{
-    width: 80%;
+    width: 90%;
     margin: 0px auto;
     padding:50px 0px;
-
-}
-.footer-image{
-    display: inline-block;
-    float:right;
+    text-align: center;
 }
 .copy-right{
     padding: 15px 5px;
-    text-align: left;
 }
-.pdt-10{
-    margin-top: 20px;
-}
-.pd-10{
-    padding:10px
-}
-
+.footer-image{
+    display: none;
 }
