@@ -27,13 +27,15 @@
     padding: 10px;
     width: 90%;
     display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
 }
 .collapse-icon{
     display: inline-block;
+    color: #ffffff;
 }
 .menu-collapse-wrapper{
-    min-height: auto;
-    width: 100%;
+    display: none;
 }
 .menu-collapse {
     margin: 0px auto 75px auto;
@@ -45,6 +47,9 @@
     text-decoration: none;
     padding: 7px;
     border-bottom: 1px solid #ffffff;
+}
+.navbar-collapse:hover + .menu-collapse-wrapper{
+    display: block;
 }
 .link-collapse{
     color: #ffffff;
